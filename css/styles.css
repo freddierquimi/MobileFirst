@@ -150,6 +150,32 @@ main {
     color: #757575:
 }
 
+
+
+/*Start main-tables--slider /
+
+.main-tables--slider {
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.main-tables-container {
+    position: relative;
+    scroll-snap-align: center;
+   
+}
+
+
+
+/*End main-tables--slider */
+
+
+
+
 .main-commissions-table,
 .main-currency-table {
     width: 70%;
@@ -446,6 +472,7 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+
 
 .plans-container--slider {
     display: flex;
